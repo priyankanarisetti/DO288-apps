@@ -22,7 +22,8 @@ pipeline {
                 }
             }
         }
-      stage('stage 2') {
+
+        stage('stage 2') {
             steps {
                 sh 'echo hello from stage 2!'
             }
@@ -35,11 +36,6 @@ pipeline {
                 }
             }
         }
-
-
-        // TODO: ADD A STAGE THAT SAYS HELLO
-
-        // TODO: ADD AN APPROVAL STAGE
 
         stage('stage 3') {
             steps {
